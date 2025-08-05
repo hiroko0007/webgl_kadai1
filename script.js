@@ -1,5 +1,5 @@
-import * as THREE from '../lib/three.module.js';
-import { OrbitControls } from '../lib/OrbitControls.js';
+import * as THREE from '/lib/three.module.js';
+import { OrbitControls } from '/lib/OrbitControls.js';
 
 window.addEventListener('DOMContentLoaded', () => {
   const wrapper = document.querySelector('#webgl');
@@ -182,4 +182,5 @@ class ThreeApp {
     this.renderer.render(this.scene, this.camera);
   }
 }
+
 
